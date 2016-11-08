@@ -1,0 +1,18 @@
+{
+  "name": "json-to-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "javascript-stringify": "^1.5.0"
+  },
+  "description": "Convert JSON to JS and output to stdout",
+  "repository": {
+    "url": "git@github.com:Dinoshauer/json-to-js.git",
+    "type": "git"
+  },
+  "author": "Kasper Jacobsen <k@mackwerk.dk>",
+  "bin": {
+    "json-to-js": "./index.js"
+  }
+}
