@@ -12,7 +12,7 @@ for (var i = args.length - 1; i >= 0; i--) {
     console.log(pkg.name + ' ' + 'v' + pkg.version);
     console.log(pkg.description);
     console.log('');
-    console.log('Author:' + ' ' + pkg.author);
+    console.log('Author:' + ' ' + pkg.author.name + ' <' + pkg.author.email + '>');
     console.log('');
     console.log('Options:');
     console.log('');
